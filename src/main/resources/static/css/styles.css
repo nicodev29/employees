@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #FFEB3B; /* Color de fondo amarillo */
+}
+
+.container {
+    flex: 1;
+}
+
+/* Color del texto del campo de entrada */
+input[type=text] {
+    color: #0D47A1; /* Color de texto azul oscuro */
+}
+
+/* Cambia el color de la tarjeta y el botón a azul oscuro */
+.card {
+    background-color: #0D47A1;
+}
+
+.btn {
+    background-color: #0D47A1;
+}
+
+.card-custom {
+    background-color: #0D47A1;
+}
+
+.card-content {
+    padding: 30px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+.card-action {
+    margin-top: 20px;
+}
+
+.card-title {
+    font-size: 30em; /* Esto ajusta el tamaño del texto. Puedes experimentar con diferentes tamaños. */
+    font-weight: bold; /* Esto hace que el texto sea negrita. */
+    color: white; /* Esto cambia el color del texto. */
+}
+.card-title-custom {
+    font-size: 75em; /* Ajusta el tamaño según sea necesario */
+    font-weight: bold;
+}
+

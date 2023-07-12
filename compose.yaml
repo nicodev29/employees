@@ -1,0 +1,8 @@
+services:
+  sql-server:
+    image: 'mcr.microsoft.com/mssql/server:latest'
+    environment:
+      - 'ACCEPT_EULA=Y'
+      - 'SA_PASSWORD=roma1500'
+    ports:
+      - '1433:1433'

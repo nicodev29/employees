@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Empleado no encontrado</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Link to your custom CSS file-->
+    <link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col s12 m6 offset-m3">
+            <div class="card card-custom darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title center card-title-custom">Empleado no encontrado</span>
+                    <p class="center">No pudimos encontrar a un empleado con el DNI ingresado. Por favor, vuelve atrás y prueba con un DNI diferente.</p>
+                    <div class="card-action center">
+                        <a href="/" class="btn waves-effect waves-light yellow darken-1">Volver
+                            <i class="material-icons left">arrow_back</i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--JavaScript at end of body for optimized loading-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
